@@ -3,6 +3,8 @@ Welcome to use MPicker. It's a tool for membrane flatten and visualization in th
 
 See our website `http://thuem.net` for details: [Installation](https://thuem.net/software/mpicker/installation.html), [Tutorial](https://thuem.net/software/mpicker/tutorial.html), [Download](https://thuem.net/software/mpicker/download.html).
 
+For installation, try `requirements.txt` if the `env.yml` is too old for your machine.
+
 ## Only interested in 2D classification?
 
 Just copy the `Mpicker_class2d.py` and `mpicker_class2d_utils.py` in `mpicker_gui`. The required libraries are: PyTorch, NumPy, mrcfile, opt_einsum, and tqdm. 
