@@ -3,7 +3,14 @@ Welcome to use MPicker. It's a tool for membrane flatten and visualization in th
 
 See our website `http://thuem.net` for details: [Installation](https://thuem.net/software/mpicker/installation.html), [Tutorial](https://thuem.net/software/mpicker/tutorial.html), [Download](https://thuem.net/software/mpicker/download.html).
 
-For installation, try `requirements.txt` if the `env.yml` is too old for your machine.
+## Installation Note
+
+The `env.yml` is legacy and may not support newer hardware or Python versions. For modern systems, we recommend using the `requirements.txt` with Python>=3.10, like:
+```
+conda create --name mpicker python=3.12
+conda activate mpicker
+pip install -r requirements.txt
+```
 
 ## Only interested in 2D classification?
 
